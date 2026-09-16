@@ -1,0 +1,33 @@
+<!DOCTYPE html>  <!-- on VSCode "<!" , then enter to cont. -->
+<html lang="en">
+<head> <!-- head tag --> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Table</title> <!--Title label of the page--> 
+</head>
+<body>   
+           <!-- Table "table" tag; add border inline css basic-->
+  <table border="1px"> 
+          <!-- <tr></tr>table row, to create new rows..-->
+    <tr> 
+        <th> Name </th> <!-- Table tag "th" as our header -->
+        <th>Address</th> 
+        <th> Age </th>
+        <th> Phone </th>
+    </tr>
+         <!--NOTE :  It reads from left to right-->
+
+<!--  create another row <tr></tr>-->
+    <tr> 
+      <!-- "td" for our table data -->
+      <td>Sun</td> 
+      <td>Lipa</td>
+      <td>19</td>
+      <td>09</td>
+    </tr>
+
+  </table>
+
+
+</body>
+</html>
