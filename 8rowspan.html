@@ -5,7 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Row Span</title>
 </head>
+
+<!-- row span: merges multiple rows into one;
+  determines the number of rows a cell should span or occupied-->
+
+<!-- kumbaga dine kakainin nya ang rows sa cell; horizontal-->
+
 <body>
+    <table border="1px">
+        <tr> 
+            <th> Name </th>
+            <th> Subject </th>
+            <th> Mark </th>
+        </tr>
+
+        <tr> 
+            <td rowspan="3"> Hanni Pham </td> <!-- considered as three cells sha gawa nung row span -->
+            <td> English </td>
+            <td> 98 </td>
+        </tr>
+
+        <tr> 
+            <td> Math </td>
+            <td> 93 </td>
+        </tr>
+
+        <tr> 
+            <td> Science </td>
+            <td> 91 </td>
+        </tr>
+
+        <tr> 
+            <td colspan="2"> Total </td>
+            <td> 8 </td>
+        </tr>
+    </table>
+
+  <br><br>
+
+<img src="8rowspan-ss.png" alt="Rowspan image">
+
 
 </body>
 </html>
