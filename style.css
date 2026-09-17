@@ -1,0 +1,22 @@
+<!-- Classes -->
+
+h1{
+    color: green; 
+}
+
+table{
+    background-color: lightgray;
+}
+
+<!-- descendants on -->
+table td{
+    text-align: center;
+    color: white;
+}
+
+<!-- if resizing img ". class calling the name" tag -->
+.listss{  
+    width: 200px;
+    height: 250px;
+}
+
