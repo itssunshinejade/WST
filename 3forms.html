@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Forms</h1>
+    <!-- simple form -->
+    <form> 
+
+           <!-- fieldset for personal information -->
+        <fieldset> 
+
+              <!-- legend tag to put ontop-->
+            <legend>Personal Information</legend> 
+
+              <!-- label ng hinhingi sa form -->
+            <label> First Name:</label>
+
+              <!-- input field for forms-->
+            <input type="text" placeholder="Enter Your FirstName"> <!-- low opacity guide placeholder-->
+            
+            <br><br> <!--to break line, para maibaba yung output onto next line "<br> = 1" and "<br><br> = 2")-->
+
+            <label> Last Name: </label>
+            <input type ="text" placeholder="Enter Your LastName">
+        </fieldset>
+
+        <fieldset> 
+            <legend> Academic details </legend>
+            <label> Courses: </label>
+
+                <!-- creating drop-down-->
+            <select>  
+                <!-- choosinng an option-->
+                <option>IT - Information Technology </option>
+                <option>CS - Computer Science </option>
+            </select>
+        </fieldset>
+
+        <fieldset>
+            <legend>Others</legend>
+            <label> Suggestions: </label>
+
+                     <!-- text area inputplaceholder -->
+            <textarea placeholder="Enter your suggestions here"> </textarea>    
+        </fieldset>
+
+        <button> Submit </button> <!-- won't work w/o java pa to-->
+        
+    </form>
+</body>
+</html>
