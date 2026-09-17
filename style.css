@@ -1,5 +1,5 @@
-<!-- Classes -->
 
+<!-- Classes for headr -->
 h1{
     color: green; 
 }
@@ -8,14 +8,14 @@ table{
     background-color: lightgray;
 }
 
-<!-- descendants on -->
+<!-- descendants on the tabl -->
 table td{
     text-align: center;
     color: white;
 }
 
-<!-- if resizing img ". class calling the name" tag -->
-.listss{  
+<!-- if resizing image -->
+.listss{
     width: 200px;
     height: 250px;
 }
